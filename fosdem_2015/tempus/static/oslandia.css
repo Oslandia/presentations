@@ -1,0 +1,28 @@
+.reveal table th,
+.reveal table td {
+    vertical-align: middle;
+    border-bottom: 0px solid;
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+    color: #F0FFFF;
+    text-transform: none;
+    font-family: "Palatino Linotype","Book Antiqua",Palatino,FreeSerif,serif;
+}
+
+/* see https://github.com/hakimel/reveal.js/issues/1101 */
+.reveal section.past,
+.reveal section.future {
+  overflow: hidden;
+}
+
+.reveal section.stack.past,
+.reveal section.stack.future {
+  overflow: visible;
+}
+
+.reveal section.stack.past section,
+.reveal section.stack.future section {
+  overflow: hidden;
+}
+
