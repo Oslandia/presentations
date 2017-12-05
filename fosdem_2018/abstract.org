@@ -1,0 +1,24 @@
+#+TITLE: Bicycle-sharing stations: profiling and availability prediction
+#+AUTHOR: Damien Garaud <damien.garaud@oslandia.com>, Raphaël Delhome <raphael.delhome@oslandia.com>
+
+This presentation will show an exploratory data analysis about bicycle-sharing
+stations in two french cities (Lyon and Bordeaux). Thanks to Open Data portals,
+bicycle-sharing availability data are freely accessible. The main issue linked
+to these data is to predict bicycle availability for each sharing station.
+
+The talk will follow a classic data workflow:
+
++ get and format the data
++ explore and visualize
++ process and predict
+
+After a short introduction to Luigi, a data pipeline Python library, the second
+part will show how to cluster sharing stations starting from their hourly
+availability profile. The clustering effort will be done with KMeans, one of
+the most popular unsupervised Machine Learning models. Then, some features
+engineering methods will be carried out in order to prepare the data for
+availability prediction. As a consequence a short-term (/e.g./ one hour)
+bicycle availability prediction will be proposed.
+
+A word will be said about the set of Python libraries used in this project:
+luigi, pandas, seaborn, scikit-learn, folium or xgboost.
