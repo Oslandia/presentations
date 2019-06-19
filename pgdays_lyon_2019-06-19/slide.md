@@ -509,5 +509,9 @@ Faite comprendre les enjeux de la donnée dans chacun des services
 ---
 
 # Merci de votre attention 
+
+https://github.com/Oslandia/presentations/tree/master/pgdays_lyon_2019-06-19 
+
+
 <!-- .slide: data-background="#111" -->
 
