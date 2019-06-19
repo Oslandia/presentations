@@ -17,7 +17,7 @@ Pour noircir la fenêtre, presser 'b'
 Régis Haubourg
 
 Géomaticien passionné
-ex-administrateur de données géograhiques pour une agence de l'eau 
+ex-administrateur de données géographiques pour une agence de l'eau 
     >>> "SQL saved my life"
 
 Expert géomaticien Open Source chez Oslandia
