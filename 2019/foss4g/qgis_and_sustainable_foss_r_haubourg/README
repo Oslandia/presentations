@@ -1,0 +1,12 @@
+Présentation réalisée le 19 juin 2019 pour les pgdays à Lyon
+
+Auteur Régis Haubourg - OSLANDIA
+
+Licence Creative Commons CC-By-SA
+
+
+Slides générées avec reveal.js
+
+Slides imprimées avec decktape :
+
+`decktape http://127.0.0.1:5511/ slides.pdf`
