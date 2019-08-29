@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html class=" js no-mobile desktop no-ie ff ff68 root-section w-1760 gt-240 gt-320 gt-480 gt-640 gt-768 gt-800 gt-1024 gt-1280 gt-1440 gt-1680 lt-1920 no-portrait landscape gradient rgba opacity textshadow multiplebgs boxshadow borderimage borderradius no-cssreflections csstransforms csstransitions no-touch retina fontface domloaded" id="index-page" lang="fr"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+
+        <title>slide.md</title>
+
+        <meta name="author" content="Oslandia">
+
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="slide.md_files/reveal.css">
+        <link rel="stylesheet" href="slide.md_files/moon.css" id="theme">
+
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="slide.md_files/zenburn.css">
+
+        <!-- Oslandia customizations -->
+        <link rel="stylesheet" href="slide.md_files/oslandia-light.css">
+
+        <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+        <script>
+            if( window.location.search.match( /print-pdf/gi ) ) {
+                var link = document.createElement( 'link' );
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                link.href = "/static/reveal.js/css/print/pdf.css";
+                document.getElementsByTagName( 'head' )[0].appendChild( link );
+            }
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]--><script type="text/javascript" src="slide.md_files/marked.js"></script><script type="text/javascript" src="slide.md_files/markdown.js"></script><script type="text/javascript" src="slide.md_files/highlight.js"></script><script type="text/javascript" src="slide.md_files/zoom.js"></script><script type="text/javascript" src="slide.md_files/notes.js"></script>
+    </head>
+
+    <body style="transition: transform 0.8s ease 0s;">
+
+        <div class="reveal linear center has-horizontal-slides ready" role="application" data-transition-speed="default" data-background-transition="fade">
+        <div class="slides" style="width: 960px; height: 700px; inset: 50% auto auto 50%; transform: translate(-50%, -50%) scale(1.14926);">
+            <section data-markdown="" data-markdown-parsed="true" data-background="oslbackground.png" data-background-size="850px" style="top: 201px; display: none;" data-background-image="oslbackground.png" class="past" aria-hidden="true" hidden=""><!-- Open source contributors do more than they should. QGIS as a reference project should find sustainable ways to rock!
+
+QGIS - like Geoserver, Mapserver and all the great OSGEO project - do not have to prove any longer that they can do the job. We now have millions of users, with great expectations, growing budgets and growing communities. Still we lack funding for boring tasks : packaging, bugfixing, documentation, QA and marketing need some love.
+
+What about changing minds and stop saying open source does not cost anything ? Could that solve this situation where countries having most users also have the less contributors ? This talk will take profit of real life examples of big corporations that decided to pivot their approach from "using open source" to "embrace Opensource".
+
+Let's get out of our technical comfort zone and expose ourselves to enlarge our contributor's base.
+
+This is a deeply optimistic talk looking right into the eyes of what we need to improve, as an opensource ecosystem !
+
+todo : 
+
+questions 
+
+
+https://docs.google.com/presentation/d/15fBntItxpOk3V8ZVmg0g6Ox5-ZylInN2zVpVBSrKi6k/edit#slide=id.p -->
+<h3 id="do-open-source-contributors-do-more-than-they-should-">Do open source contributors do more than they should ?</h3>
+<p><em>QGIS as a reference project to find sustainable ways to rock!
+</em>
+<!-- --></p>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 130.5px; display: none;" class="past" aria-hidden="true" hidden=""><h2 id="-me">/me</h2>
+<pre><code class="hljs applescript">Régis Haubourg
+
+French guy passionate <span class="hljs-keyword">with</span> geospatial stuff
+Open Source changed  <span class="hljs-keyword">my</span> life - litteraly
+
+Former GIS data admin (water basin agency)  - SQL saved <span class="hljs-keyword">my</span> life
+Former agronomic engineer           - GIS turned <span class="hljs-keyword">into</span> a passion
+
+
+Open Source expert <span class="hljs-keyword">at</span> Oslandia                QGIS &amp; PostGIS fan
+OSGEO French <span class="hljs-keyword">local</span> chapter president    ...slowly becoming a nerd
+</code></pre></section><section data-markdown="" data-markdown-parsed="true" style="top: 179.5px; display: none;" class="past" aria-hidden="true" hidden=""><h2 id="oslandia">OSLANDIA</h2>
+<p>French company started in 2009</p>
+<p>Open source and geospatial only</p>
+<p>GIS - 3D - DATA/AI</p>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 108.5px; display: none;" class="past" aria-hidden="true" hidden=""><h2 id="oslandia">OSLANDIA</h2>
+<p>15 collaborators </p>
+<p><strong>100% remote working</strong></p>
+<p><strong>100% open source</strong></p>
+<p><strong>horizontal and transparent governance</strong></p>
+<p>some QGIS and postGIS core commiters.. </p>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 144.5px; display: block;" class="past" aria-hidden="true" hidden=""><h2 id="open-source-communities">Open Source communities</h2>
+<p>QGIS </p>
+<p>PostGIS</p>
+<p>iTowns</p>
+<p>python, SQL, C++, javascript</p>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 92.5px; display: block;" class="past" aria-hidden="true" hidden=""><p><img src="slide.md_files/qgis-logo.png" alt="QGIS"></p>
+<h1 id="r-u-sustainable-">R U Sustainable ?</h1>
+<p>A reference Free software community project in the world</p>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 69.5px; display: block;" class="present"><h3 id="yes-we-went-this-long-road">Yes we went this long road</h3>
+<p><img src="slide.md_files/qgis_versions.gif" alt="QGIS versions"></p>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 31.5px; display: block;" aria-hidden="true" class="future" hidden=""><p><img src="slide.md_files/qgis_community.png" alt="QGIS community"></p>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 4px; display: block;" aria-hidden="true" class="future" hidden=""><h2 id="what-is-a-happy-contributor-">What is a happy contributor ?</h2>
+<p>Eat</p>
+<p>Have a social life</p>
+<p>Pay the rent</p>
+<p>Raise kids </p>
+<p>Buy a neat new 64 Go RAM to compile QGIS faster ;-)</p>
+<p>..</p>
+<p>Get stickers</p>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 350px; display: none;" aria-hidden="true" class="future" hidden=""><h1 id="do-not-burnout">Do not burnout</h1>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 350px; display: none;" aria-hidden="true" class="future" hidden=""><h3 id="history-of-qgis-contribution">History of QGIS contribution</h3>
+<p>20020 - Gary Sherman releases 0.0.1</p>
+<p>First contributors were benevolent.</p>
+<p>Most started being paid between 1.6 (2010) and 2.0 (2014)</p>
+<p>Currently a whole commercial ecosystem exist in most countries. </p>
+<p><a href="https://www.qgis.org/en/site/forusers/commercial_support.html">https://www.qgis.org/en/site/forusers/commercial_support.html</a></p>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 350px; display: none;" aria-hidden="true" class="future" hidden=""><p><img src="slide.md_files/funds_qgis_org_2018.png" alt="Funds 2018 QGIS.org"></p>
+<p>Funds for QGIS.org</p>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 350px; display: none;" aria-hidden="true" class="future" hidden=""><p>but that's only a fraction of it </p>
+<h3 id="26-million-dollars-">26 Million dollars !!</h3>
+<p><img src="slide.md_files/estimated_cost_2019-08-23.png" alt="Estimated costs OpenHub"></p>
+<p>let's say 20% of it was funded, 
+5.6 Million dollars might reflect the real transactions </p>
+<p>(totally random estimate) </p>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 350px; display: none;" aria-hidden="true" class="future" hidden=""><h2 id="sponsors">Sponsors</h2>
+<p><img src="slide.md_files/sponsors.png" alt="Sponsors"></p>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 350px; display: none;" aria-hidden="true" class="future" hidden=""><h3 id="expenses-of-qgis-org-budget-2018-">Expenses of QGIS.org budget (2018)</h3>
+<p><img src="slide.md_files/qgis_expenses.png" alt="Expenses"></p>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 350px; display: none;" aria-hidden="true" class="future" hidden=""><h4 id="underfunded-tasks">Underfunded tasks</h4>
+<ul>
+<li>Infrastructure</li>
+<li>Packaging</li>
+<li>Documentation</li>
+</ul>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 350px; display: none;" aria-hidden="true" class="future" hidden=""><h4 id="underfunded-tasks">Underfunded tasks</h4>
+<ul>
+<li><p>Communication Marketing</p>
+<ul>
+<li>blog / maintain welcome page feed</li>
+<li>explain (versions, LTR vs release, roadmap)</li>
+</ul>
+</li>
+<li><p>Bug triage</p>
+</li>
+<li><p>Quality Assessment (real testing during freeze periods)</p>
+</li>
+<li><p>Code review</p>
+</li>
+</ul>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 350px; display: none;" aria-hidden="true" class="future" hidden=""><h3 id="french-self-bashing">French self bashing</h3>
+<p><img src="slide.md_files/fundings_qgisdotorg.png" alt="qgis.org fund origin"></p>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 350px; display: none;" aria-hidden="true" class="future" hidden=""><h1 id="new-trends-">New trends !</h1>
+<p><em>(in France at least)</em></p>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 350px; display: none;" aria-hidden="true" class="future" hidden=""><h3 id="orange-orange-orange-logo-">Orange <img src="slide.md_files/orange-logo.html" alt="Orange"></h3>
+<p>CellPhone, optic Fiber, traditional communication, Internet Provider</p>
+<p>Embrassing open source totally - Top Bottom ! Long history with OW2 cluster. New with Geomatics (ESRI world )</p>
+<p>Support contract with Oslandia shown as a model</p>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 350px; display: none;" aria-hidden="true" class="future" hidden=""><h3 id="big-cities">Big cities</h3>
+<p>Lyon Métropole - migration to postgreSQL &amp; QGIS : support contracts</p>
+<p>Grenoble Métropole  - migration to postgreSQL &amp; QGIS : support contracts</p>
+<p>.. </p>
+<h3 id="water-companies">Water companies</h3>
+<p>Worlwide water distribution</p>
+<p>Challenging its internal habits with Inner Source </p>
+<p>Prototyping QGIS for desktop apps and QGIS server on the cloud for web mapping</p>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 350px; display: none;" aria-hidden="true" class="future" hidden=""><h3 id="public-research">Public research</h3>
+<p>Open source generation is taking the power</p>
+<p>cooperation</p>
+<p>centralized data and databases</p>
+<p>wonderful mix of open data, open hardware and open source</p>
+<p><img src="slide.md_files/geopoppy.jpeg" alt="Geopoppy"></p>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 350px; display: none;" aria-hidden="true" class="future" hidden=""><h1 id="you-">You ?</h1>
+<hr>
+<h3 id="how-many-use-qgis-">How many use QGIS?</h3>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 350px; display: none;" aria-hidden="true" class="future" hidden=""><h3 id="how-many-know-the-actual-roadmap-of-qgis-">How many know the actual roadmap of QGIS?</h3>
+<p>(fixed schedule / 4 months releases / 1 months minor versions / 1 year LTR)</p>
+<hr>
+<h3 id="how-many-test-qgis-and-report-issues-and-feedback-during-freeze-period-">How many test QGIS and report issues and feedback during freeze period?</h3>
+<p>On your own real production use cases. </p>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 350px; display: none;" aria-hidden="true" class="future" hidden=""><h3 id="how-many-have-support-contracts-">How many have support contracts ?</h3>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 350px; display: none;" aria-hidden="true" class="future" hidden=""><h3 id="how-many-have-subsribed-to-a-user-group-">How many have subsribed to a user group ?</h3>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 350px; display: none;" aria-hidden="true" class="future" hidden=""><h3 id="how-many-have-tried-to-subscribe-or-sponsor-qgis-org-">How many have tried to subscribe or sponsor QGIS.org?</h3>
+<p>Sponsoring OSGEO chapter or local user group is a valid YES</p>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 350px; display: none;" aria-hidden="true" class="future" hidden=""><h3 id="how-many-of-you-start-courses-explaining-the-economics-of-our-contributive-model-">How many of you start courses explaining the economics of our contributive model ?</h3>
+<hr>
+<h3 id="how-many-of-you-took-part-of-the-proprietary-support-contracts-amount-into-open-source-contribution">How many of you took part of the proprietary support contracts amount into open source contribution</h3>
+<p>(how many of you struggle to get back budgets, where buying licence is easier?)</p>
+<hr>
+<h3 id="demanders">Demanders</h3>
+<p>"Please can you do this very simple thing for free, and before anything else?"</p>
+<p>"It's a shame, 3 versions after that no one adressed this issue"</p>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 350px; display: none;" aria-hidden="true" class="future" hidden=""><h1 id="how-to-improve-this-">How to improve this?</h1>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 350px; display: none;" aria-hidden="true" class="future" hidden=""><h3 id="sponsoring-donations">Sponsoring &amp; donations</h3>
+<p>Funding meetings, bug fix sprints, grant applications, infrastructure</p>
+<p>Spread the word, act in local chapters. Convince your boss. And the boss above him. </p>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 350px; display: none;" aria-hidden="true" class="future" hidden=""><h3 id="local-chapter-local-qgis-user-group">Local chapter / local QGIS user group</h3>
+<p>Create one</p>
+<p>Get money from subscriptions and events</p>
+<p>Use a part of it for </p>
+<p><strong>sponsoring</strong></p>
+<p><strong>grant application</strong></p>
+<p><strong>Raise new contributors</strong></p>
+<p>Make it fun !</p>
+<p><img src="slide.md_files/baby_tux.jpg" alt="raise baby"></p>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 350px; display: none;" aria-hidden="true" class="future" hidden=""><h3 id="certification-programs">Certification programs</h3>
+<ul>
+<li><p>Certificate trainees </p>
+<ul>
+<li>fund QGIS.org (already 10k € and &gt;500 certicate issues)</li>
+<li>explain contributive model to trainees</li>
+<li>get more contribution from training providers  </li>
+</ul>
+<p><a href="http://changelog.qgis.org/en/qgis/certifyingorganisation/list/">http://changelog.qgis.org/en/qgis/certifyingorganisation/list/</a></p>
+</li>
+</ul>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 350px; display: none;" aria-hidden="true" class="future" hidden=""><p><img src="slide.md_files/certification_process.png" alt="certification"></p>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 350px; display: none;" aria-hidden="true" class="future" hidden=""><h1 id="support-contracts-but-fair-ones-">Support contracts (but fair ones)</h1>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 350px; display: none;" aria-hidden="true" class="future" hidden=""><p>Sell time to understand issues</p>
+<p>Time to prepare new features ideas</p>
+<p>Time to help in deploying / configuring</p>
+<p>Fast</p>
+<p>Give credit,security and insurance to IT departement / Decision makers</p>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 350px; display: none;" aria-hidden="true" class="future" hidden=""><h3 id="home-duty">Home duty</h3>
+<p>Energy can't be only on dev's side. </p>
+<p>Fight to find budgets.</p>
+<p>Fight to resist bureaucratic rules</p>
+<p>Out of your comfort zone? Dare, try. </p>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 350px; display: none;" aria-hidden="true" class="future" hidden=""><h3 id="home-duty">Home duty</h3>
+<p>When explained, most people are marvelled of this model, but most think there is a big corp underneath (like Mozilla, Android)</p>
+<p>Advertise it the OSGEO model. </p>
+<p>Make it serious and credible</p>
+<p>IT. JUST. WORKS.</p>
+<p>DO IT :)</p>
+</section><section data-markdown="" data-markdown-parsed="true" style="top: 350px; display: none;" aria-hidden="true" class="future" hidden=""><p><em>Congratulations, you probably became a very efficient contributor at this stage!</em></p>
+</section><section data-markdown="" data-markdown-parsed="true" data-background="oslbackground.png" data-background-size="650px" style="top: 350px; display: none;" data-background-image="oslbackground.png" aria-hidden="true" class="future" hidden=""><h3 id="any-questions-">Any questions ?</h3>
+<p>Slides and sources available at : </p>
+<p><a href="https://github.com/Oslandia/presentations/">https://github.com/Oslandia/presentations/</a></p>
+<p>/2019/foss4g/qgis_and_sustainable_foss_r_haubourg/slide.md</p>
+<!-- -->
+</section>
+        </div>
+        <script src="slide.md_files/head.js"></script>
+        <script src="slide.md_files/reveal.js"></script>
+
+        <script>
+
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: false,
+                progress: true,
+                history: true,
+                center: true,
+                mouseWheel: false,
+                slideNumber: true,
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: "/static/reveal.js/lib/js/classList.js", condition: function() { return !document.body.classList; } },
+                    { src: "/static/reveal.js/plugin/markdown/marked.js", condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: "/static/reveal.js/plugin/markdown/markdown.js", condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: "/static/reveal.js/plugin/highlight/highlight.js", async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: "/static/reveal.js/plugin/zoom-js/zoom.js", async: true, condition: function() { return !!document.body.classList; } },
+                    { src: "/static/reveal.js/plugin/notes/notes.js", async: true, condition: function() { return !!document.body.classList; } }
+                ]
+            });
+
+        </script>
+
+    
+<div class="backgrounds"><div class="slide-background past" data-background-hash="oslbackground.png850pxnullnullnullnullnullnullnull" style="background-size: 850px auto; display: none; background-image: url(&quot;oslbackground.png&quot;);" data-background-size="850px" data-loaded="true"></div><div class="slide-background past" style="display: none;" data-loaded="true"></div><div class="slide-background past" style="display: none;" data-loaded="true"></div><div class="slide-background past" style="display: none;" data-loaded="true"></div><div class="slide-background past" style="display: block;" data-loaded="true"></div><div class="slide-background past" style="display: block;" data-loaded="true"></div><div class="slide-background present" style="display: block;" data-loaded="true"></div><div class="slide-background future" style="display: block;" data-loaded="true"></div><div class="slide-background future" style="display: block;" data-loaded="true"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" style="display: none;"></div><div class="slide-background future" data-background-hash="oslbackground.png650pxnullnullnullnullnullnullnull" style="background-size: 650px auto; display: none;" data-background-size="650px"></div></div><div class="progress" style="display: block;"><span style="width: 277.895px;"></span></div><aside class="controls" style="display: none;" data-controls-layout="bottom-right" data-controls-back-arrows="faded"><button class="navigate-left enabled" aria-label="previous slide"><div class="controls-arrow"></div></button><button class="navigate-right enabled" aria-label="next slide"><div class="controls-arrow"></div></button><button class="navigate-up" aria-label="above slide" disabled="disabled"><div class="controls-arrow"></div></button><button class="navigate-down" aria-label="below slide" disabled="disabled"><div class="controls-arrow"></div></button></aside><div class="slide-number" style="display: block;"><span class="slide-number-a">7</span></div><div class="speaker-notes" data-prevent-swipe="" tabindex="0"></div><div class="pause-overlay"></div><div style="position: absolute; height: 1px; width: 1px; overflow: hidden; clip: rect(1px, 1px, 1px, 1px);" id="aria-status-div" aria-live="polite" aria-atomic="true">Yes we went this long road
+
+</div></div></body></html>

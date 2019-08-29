@@ -8,18 +8,20 @@ Let's get out of our technical comfort zone and expose ourselves to enlarge our 
 
 This is a deeply optimistic talk looking right into the eyes of what we need to improve, as an opensource ecosystem !
 
-todo : insert conference  logo*
-    add slide grow community
-    add slide about aeag experience and loss of active funders
-    explain how to fund : talk before on lists / open or fund a QEP / Talk to dev before anything  
+todo : 
+
+questions 
+
 
 https://docs.google.com/presentation/d/15fBntItxpOk3V8ZVmg0g6Ox5-ZylInN2zVpVBSrKi6k/edit#slide=id.p -->
 
 
-### Open source contributors do more than they should ?
+### Do open source contributors do more than they should ?
 
-*QGIS as a reference project should find sustainable ways to rock!*
 
+
+_QGIS as a reference project to find sustainable ways to rock!
+_
 <!-- .slide: data-background="oslbackground.png" data-background-size="850px" -->
 
 ---
@@ -30,8 +32,10 @@ https://docs.google.com/presentation/d/15fBntItxpOk3V8ZVmg0g6Ox5-ZylInN2zVpVBSrK
 Régis Haubourg
 
 French guy passionate with geospatial stuff
-Former GIS data admin (water basin agency) >>> "SQL saved my life"
-Former agronomic engineer                  >>> "GIS saved my life"
+Open Source changed  my life - litteraly
+
+Former GIS data admin (water basin agency)  - SQL saved my life
+Former agronomic engineer           - GIS turned into a passion
 
 
 Open Source expert at Oslandia                QGIS & PostGIS fan
@@ -57,38 +61,48 @@ GIS - 3D - DATA/AI
 
 **100% remote working**
 
+**100% open source**
+
 **horizontal and transparent governance**
 
 some QGIS and postGIS core commiters.. 
 
 ---
 
-## Communautés open Source
+## Open Source communities
 
 QGIS 
 
 PostGIS
 
-iTowns
+iTowns (3D web framework)
 
-python, SQL, C++, javascript
+python, SQL, C++, javascript, data science
 
----
-
-# Sustainable ? 
 
 ---
+
 
 ![QGIS](qgis-logo.png)
+
+---
+
 
 A reference Free software community project in the world
 
 
 ---
 
-### yes we went this long road 
 
-![QGIS versions](qgis_versions.gif)
+![QGIS sustainable](sustainable_qgis.jpeg)
+
+---
+
+### No more a young children
+
+<!-- ![QGIS versions](qgis_versions.gif) -->
+
+![QGIS splashes](splashes.png)
 
 ---
 
@@ -97,15 +111,27 @@ A reference Free software community project in the world
 
 ---
 
-# For contributors
+## What is a happy contributor ?
 
 Eat
+
 Have a social life
+
 Pay the rent
-Raise kids
+
+Raise kids 
+
 Buy a neat new 64 Go RAM to compile QGIS faster ;-)
 
-**Do not burnout**
+..
+
+Get stickers
+
+---
+
+
+# Do not burnout
+
 
 ---
 
@@ -114,11 +140,9 @@ Buy a neat new 64 Go RAM to compile QGIS faster ;-)
 
 20020 - Gary Sherman releases 0.0.1
 
-First contributors were benevolent.
+Paid services very early. Most started being paid between 1.6 (2010) and 2.0 (2014)
 
-Most started being paid between 1.6 (2010) and 2.0 (2014)
-
-Currently a whole commercial ecosystem exist in most countries. 
+Currently a whole commercial ecosystem exists in most countries. 
 
 https://www.qgis.org/en/site/forusers/commercial_support.html
 
@@ -143,7 +167,7 @@ let's say 20% of it was funded,
 
 ---
 
-## Sponsors
+## Sponsors (2019)
 
 ![Sponsors](sponsors.png)
 
@@ -159,10 +183,20 @@ let's say 20% of it was funded,
 
 ---
 
-#### Underfunded tasks
+# Underfunded tasks ?
+
+---
+
+
 
 * Infrastructure
+
+-
+
 * Packaging
+
+-
+
 * Documentation
 
 
@@ -190,11 +224,131 @@ let's say 20% of it was funded,
 
 ---
 
+
+# New trends !
+
+_(in France at least)_
+
+
+---
+
+### ![Orange](orange-logo)
+
+CellPhone, optic Fiber, traditional communication, Internet Provider
+
+Embrassing open source totally - Top Bottom ! 
+
+Long history with OW2 cluster. 
+
+Support contract with Oslandia shown as a model
+
+---
+
+Allowed:
+
+- QGIS server refactor
+
+- QGIS server OGC certification
+
+- QGIS server perfs improvements
+
+- Security audit and hardening
+
+
+---
+
+### Big cities
+
+Lyon Métropole - migration to postgreSQL & QGIS & support contracts
+
+Grenoble Métropole  - migration to postgreSQL & QGIS & support contracts
+
+---
+
+
+### Water companies
+
+
+Worlwide water distribution
+
+Challenging its internal habits with Inner Source 
+
+Prototyping QGIS for desktop apps and QGIS server on the cloud for web mapping
+
+---
+
+### Public research 
+
+Open source generation is taking the power
+
+cooperation
+
+centralized data and databases
+
+wonderful mix of open data, open hardware and open source
+
+![Geopoppy](geopoppy.jpeg)
+
+---
+
+# You ?
+
+---
+
+### How many use QGIS? 
+
+
+---
+
+### How many know the actual roadmap of QGIS? 
+
+(fixed schedule / 4 months releases / 1 month minor versions / 1 year LTR)
+
+---
+
+### How many test QGIS and report issues and feedback during freeze period? 
+
+On your own real production use cases. 
+
+---
+
+### How many of you have been blocked by an unfixed bug
+
+
+---
+
+### How many have support contracts ? 
+
+---
+
+### How many have subsribed to a user group ?
+
+---
+
+### How many have tried to subscribe or sponsor QGIS.org? 
+
+Sponsoring OSGEO chapter or local user group is a valid YES
+
+---
+
+
+### How many of you start courses explaining the economics of our contributive model ? 
+
+
+---
+
+### How many of you took a fraction of the proprietary support contracts amount into open source contribution 
+
+(how many of you struggle to get back budgets, where buying licence is easier?)
+
+
+---
+
 # How to improve this? 
 
 ---
 
-# Sponsoring & donations
+### Sponsoring & donations
 
 Funding meetings, bug fix sprints, grant applications, infrastructure
 
@@ -204,21 +358,39 @@ Spread the word, act in local chapters. Convince your boss. And the boss above h
 
 ### Local chapter / local QGIS user group
 
+---
+
 Create one
 
-Get money from subscription
+Get money from subscriptions and events
 
-Use a part of it for sponsoring, grant application
+---
 
-Raise new contributors 
+Use a part of it for 
+
+**sponsoring**
+
+**grant application**
+
+**Raise new contributors**
+
+
+---
+
+Make it fun !
+
+---
+
+Raise baby contributors 
+
 
 ![raise baby](baby_tux.jpg)
 
 ---
 
-# Certification programs
+### Certification programs
 
-* certificate trainees 
+* Certificate trainees 
   * fund QGIS.org (already 10k € and >500 certicate issues)
   * explain contributive model to trainees
   * get more contribution from training providers  
@@ -231,17 +403,34 @@ Raise new contributors
 
 ---
 
-# Support contracts (but fair ones)
+# Support contracts 
+
+---
+* Time to: 
+
+  * Time to understand issues
+
+  * Time to prepare new features ideas
+
+  * Time to help in deploying / configuring
+
+* Fast
+
+* Give credit,security and insurance to IT departement / Decision makers
 
 ---
 
-# Demanders
+![Support contract](support_contract.png)
 
-"Please can you do this very simple thing for free, and before anything else?"
 
-"It's a shame, 3 versions after that no one adressed this issue"
 
 ---
+
+# Homework duty 
+
+---
+
+
 
 Energy can't be only on dev's side. 
 
@@ -249,65 +438,42 @@ Fight to find budgets.
 
 Fight to resist bureaucratic rules
 
+Out of your comfort zone?     Dare, try. 
+
 ---
 
-When explained, most people are marvelled of this model, but most think there is a big corp underneath (like Mozilla, Android)
 
-Advertise it the OSGEO model. 
+Most people are true supporters but 
+
+most think there is a big corp underneath 
+
+**Advertise the OSGEO model. **
 
 Make it serious and credible
 
-IT. JUST. WORKS.
+**IT. WORKS.**
 
-DO IT :)
-
----
-
-
-# New trends 
-
-_(in France at least)_
-
----
-
-### Orange ![Orange](orange-logo)
-
-CellPhone, optic Fiber, traditional communication, Internet Provider
-
-Embrassing open source totally - Top Bottom ! Long history with OW2 cluster. New with Geomatics (ESRI world )
-
-Support contract with Oslandia shown as a model
-
----
-
-### Big cities
-
-Lyon Métropole - migration to postgreSQL & QGIS : support contracts
-
-Grenoble Métropole  - migration to postgreSQL & QGIS : support contracts
-
-.. 
-
-### Veolia
-
-![Veolia logo](Veolia)
-
-Worlwide water distribution
-
-Challenging its internal habits with Inner Source 
-
-Prototyping QGIS for desktop apps and QGIS server on the cloud for web mapping
+**DO IT :)**
 
 
 ---
+
+
+_Congratulations, you probably became a very efficient contributor at this stage!_
+
+
+---
+
+![QGIS rocks](qgis_rocks.jpeg)
+
+---
+
 
 ### Any questions ?  
 
 Slides and sources available at : 
 
-https://github.com/Oslandia/presentations/
-
-/2019/foss4g/qgis_and_sustainable_foss_r_haubourg/slide.md
+https://github.com/Oslandia/presentations//2019/foss4g/qgis_and_sustainable_foss_r_haubourg/slide.md
 
 <!-- .slide: data-background="oslbackground.png" data-background-size="650px" -->
 
